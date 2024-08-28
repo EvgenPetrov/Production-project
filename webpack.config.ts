@@ -7,7 +7,7 @@ import path from "path";
 export default (env: BuildEnv) => {
     // Определяем пути, необходимые для сборки
     const paths: BuildPaths = {
-        entry: path.resolve(__dirname, "src", "index.ts"), // Точка входа для приложения
+        entry: path.resolve(__dirname, "src", "index.tsx"), // Точка входа для приложения
         build: path.resolve(__dirname, "build"), // Путь для выходного файла после сборки
         html: path.resolve(__dirname, "public", "index.html"), // Шаблон HTML для приложения
     };
