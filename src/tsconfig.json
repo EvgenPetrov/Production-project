@@ -7,7 +7,7 @@
         "jsx": "react",
         "allowJs": true,
         "moduleResolution": "node",
-        "baseUrl": ".",
+        // "baseUrl": ".",
         "esModuleInterop": true,
         "allowSyntheticDefaultImports": true,
         "isolatedModules": true
