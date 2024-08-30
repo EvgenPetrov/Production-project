@@ -22,7 +22,7 @@ export function buildWebpackConfig(options: BuildOptions): webpack.Configuration
         module: {
             rules: buildLoaders(options), // Подключаем загрузчики
         },
-        resolve: buildResolvers(), // Подключаем резолверы для расширений файлов
+        resolve: buildResolvers(options), // Подключаем резолверы для расширений файлов
         devtool: isDev ? "inline-source-map" : undefined,
         devServer: isDev ? buildDevServer(options) : undefined,
     };

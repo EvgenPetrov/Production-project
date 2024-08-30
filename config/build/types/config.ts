@@ -6,6 +6,7 @@ export interface BuildPaths {
     entry: string; // Путь к точке входа
     build: string; // Путь к папке сборки
     html: string; // Путь к HTML-шаблону
+    src: string;
 }
 
 export interface BuildEnv {

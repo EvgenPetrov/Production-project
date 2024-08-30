@@ -10,6 +10,7 @@ export default (env: BuildEnv) => {
         entry: path.resolve(__dirname, "src", "index.tsx"), // Точка входа для приложения
         build: path.resolve(__dirname, "build"), // Путь для выходного файла после сборки
         html: path.resolve(__dirname, "public", "index.html"), // Шаблон HTML для приложения
+        src: path.resolve(__dirname, "src"),
     };
     // Устанавливаем режим разработки
     const mode = env.mode || "development";
