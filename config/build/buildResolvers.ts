@@ -1,6 +1,7 @@
 // Импортируем типы для конфигурации резолвера Webpack
 import { ResolveOptions } from "webpack";
 import { BuildOptions } from "./types/config";
+import path from "path";
 
 // Функция для создания резолвера, который позволяет не указывать расширения файлов при импорте
 export function buildResolvers(options: BuildOptions): ResolveOptions {
@@ -9,6 +10,6 @@ export function buildResolvers(options: BuildOptions): ResolveOptions {
         preferAbsolute: true,
         modules: [options.paths.src, "node_modules"],
         mainFiles: ["index"],
-        alias: {},
+        alias: { "@": path.resolve(__dirname, "src") },
     };
 }

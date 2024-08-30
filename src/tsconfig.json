@@ -9,7 +9,7 @@
         "moduleResolution": "node",
         "baseUrl": ".",
         "paths": {
-            "*": ["./src/*"]
+            "@/*": ["src/*"] // Используем алиас @ для папки src
         },
         "esModuleInterop": true,
         "allowSyntheticDefaultImports": true,
