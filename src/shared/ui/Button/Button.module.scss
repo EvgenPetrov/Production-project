@@ -1,34 +1,12 @@
 //Кнопки временно
 
 .Button {
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: bold;
-    color: white;
-    // background-color: #007bff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease; /* Плавный переход фона при наведении */
+    color: var(--inverted-color);
+    background-color: var(--inverted-bg-color);
 }
-
-// button:hover {
-//     background-color: #0056b3; /* Цвет фона при наведении */
-// }
-
-// button:active {
-//     background-color: #003d80; /* Цвет фона при нажатии */
-// }
-
-// button:disabled {
-//     background-color: #cccccc;
-//     cursor: not-allowed; /* Изменение курсора на запрещенный */
-//     opacity: 0.6; /* Полупрозрачная неактивная кнопка */
-// }
 
 .clear {
     padding: 0;
-    margin: 0;
     border: none;
     background: none;
     outline: none;
