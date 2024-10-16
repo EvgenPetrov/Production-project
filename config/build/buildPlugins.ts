@@ -1,9 +1,8 @@
 // Импортируем необходимые плагины и типы из Webpack
 import HtmlWebpackPlugin from "html-webpack-plugin";
-import webpack, { DefinePlugin, HotModuleReplacementPlugin } from "webpack";
+import webpack from "webpack";
 import { BuildOptions } from "./types/config";
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
-import { json } from "stream/consumers";
 
 // Функция для создания массива плагинов, используемых в Webpack
 export function buildPlugins({
