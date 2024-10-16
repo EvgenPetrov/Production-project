@@ -4,43 +4,42 @@
 @import "themes/dark";
 
 .app {
-    font: var(--font-m);
-    background: var(--bg-color);
-    color: var(--primary-color);
-    min-height: 100vh;
-}
-
-//Контейнер временно
-.container {
-    width: 100%;
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
-@media (max-width: 1200px) {
-    .container {
-        max-width: 1000px;
-    }
-}
-
-@media (max-width: 992px) {
-    .container {
-        max-width: 750px;
-    }
-}
-
-@media (max-width: 768px) {
-    .container {
-        max-width: 100%;
-    }
+  font: var(--font-m);
+  background: var(--bg-color);
+  color: var(--primary-color);
+  min-height: 100vh;
 }
 
 .content-page {
-    display: flex;
+  display: flex;
 }
 
 .page-wrapper {
-    flex-grow: 1;
-    padding: 15px;
+  flex-grow: 1;
+  padding: 15px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1000px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
 }

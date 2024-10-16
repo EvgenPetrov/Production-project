@@ -14,14 +14,16 @@ export default {
     plugins: {
         react: pluginReact,
         "@typescript-eslint": tseslint,
+        i18next: pluginI18next,
     },
     extends: [
         "eslint:recommended", // Рекомендуемая конфигурация ESLint
         "plugin:react/recommended", // Поддержка и рекомендуемые правила для React
         "plugin:@typescript-eslint/recommended", // Рекомендуемые правила для TypeScript
+        "plugin:i18next/recommended",
     ],
     rules: {
-        // Здесь можно добавить кастомные правила
+        "i18next/no-literal-string": ["error", { markupOnly: true }],
     },
     settings: {
         react: {

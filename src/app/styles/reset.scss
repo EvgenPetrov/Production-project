@@ -1,49 +1,49 @@
 /* Resetting margins, paddings, and borders */
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
 }
 
 /* Setting base font properties */
 html,
 body {
-    height: 100%;
-    font-size: 100%;
-    line-height: 1.5;
-    color: #000;
+  height: 100%;
+  font-size: 100%;
+  line-height: 1.5;
+  color: #000;
 }
 
 /* Removing list styles */
 ul,
 ol {
-    list-style: none;
+  list-style: none;
 }
 
 /* Removing text decoration for links */
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 /* Resetting table properties */
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Resetting form elements */
 button,
 input,
 textarea {
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
-    color: inherit;
-    background: none;
-    border: none;
-    outline: none;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none;
 }
 
 /* Setting default display for common elements */
@@ -58,7 +58,7 @@ hgroup,
 menu,
 nav,
 section {
-    display: block;
+  display: block;
 }
 
 /* Resetting heading and paragraph margins */
@@ -69,23 +69,23 @@ h4,
 h5,
 h6,
 p {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /* Setting default image properties */
 img {
-    max-width: 100%;
-    height: auto;
-    display: block;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 /* Reset for buttons */
 button {
-    cursor: pointer;
-    background: transparent;
-    border: none;
-    padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  padding: 0;
 }
 
 /* Resetting input and button appearance */
@@ -93,7 +93,5 @@ input,
 button,
 select,
 textarea {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
+  appearance: none;
 }
